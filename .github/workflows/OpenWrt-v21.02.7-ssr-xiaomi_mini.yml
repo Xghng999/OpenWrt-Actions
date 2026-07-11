@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt-v21.02.7-ssr-xiaomi_mini
+name: OpenWrt-v21.02.7-ssr-plus-xiaomi_mini
 
 on:
   repository_dispatch:
