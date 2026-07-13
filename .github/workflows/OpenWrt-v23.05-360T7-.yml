@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt-v23.05.6-360T7
+name: OpenWrt-v23.05-360T7
 
 on:
   repository_dispatch:
@@ -18,7 +18,7 @@ on:
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt.git
-  REPO_BRANCH: v23.05.6
+  REPO_BRANCH: openwrt-23.05
   FEEDS_CONF: xQihoo-360T7/OpenWrt-23.05.6/feeds.conf.default
   CONFIG_FILE: Qihoo-360T7/OpenWrt-23.05.6/.config
   DIY_P1_SH: Qihoo-360T7/OpenWrt-23.05.6/diy-part1.sh
