@@ -11,7 +11,7 @@
 #
 
 # 修改 LAN IP
-sed -i 's/192.168.1.1/192.168.168.1/g' package/base-files/files/bin/config_generate
+# sed -i 's/192.168.1.1/192.168.168.1/g' package/base-files/files/bin/config_generate
 
 # 修改主机名
 sed -i "s/hostname='OpenWrt'/hostname='Qihoo_360T7'/g" package/base-files/files/bin/config_generate
