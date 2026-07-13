@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt-v21.02.7-ssr-R6220
+name: OpenWrt-v21.02-ssr-R6220
 
 on:
   repository_dispatch:
@@ -18,7 +18,7 @@ on:
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt.git
-  REPO_BRANCH: v21.02.7
+  REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: NETGEAR-R6220/OpenWrt-v21.02.7/feeds.conf.default
   CONFIG_FILE: NETGEAR-R6220/OpenWrt-v21.02.7/.config
   DIY_P1_SH: NETGEAR-R6220/OpenWrt-v21.02.7/diy-part1.sh
