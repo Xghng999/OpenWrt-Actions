@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt-v21.02.7-ssr-plus-xiaomi_mini
+name: OpenWrt-v21.02-ssr-plus-xiaomi_mini
 
 on:
   repository_dispatch:
@@ -19,10 +19,10 @@ on:
 env:
   REPO_URL: https://github.com/openwrt/openwrt.git
   REPO_BRANCH: openwrt-21.02
-  FEEDS_CONF: xiaomi-mini/OpenWrt-v21.02.7/feeds.conf.default
-  CONFIG_FILE: xiaomi-mini/OpenWrt-v21.02.7/.config
-  DIY_P1_SH: xiaomi-mini/OpenWrt-v21.02.7/diy-part1.sh
-  DIY_P2_SH: xiaomi-mini/OpenWrt-v21.02.7/diy-part2.sh
+  FEEDS_CONF: xiaomi-mini/OpenWrt-v21.02/feeds.conf.default
+  CONFIG_FILE: xiaomi-mini/OpenWrt-v21.02/.config
+  DIY_P1_SH: xiaomi-mini/OpenWrt-v21.02/diy-part1.sh
+  DIY_P2_SH: xiaomi-mini/OpenWrt-v21.02/diy-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
