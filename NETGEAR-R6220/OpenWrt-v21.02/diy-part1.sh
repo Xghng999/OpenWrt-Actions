@@ -29,4 +29,4 @@ sed -i 's/^\(.*packages\)/#&/' feeds.conf.default
 
 # 添加修改的packages源
 # sed -i '$a src-git packages https://github.com/lxhao61/openwrt-packages.git;19.07' feeds.conf.default
-sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
+sed -i '$a src-git packages https://github.com/immortalwrt/packages.git;openwrt-21.02' feeds.conf.default
