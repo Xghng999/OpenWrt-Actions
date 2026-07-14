@@ -19,7 +19,7 @@ on:
 env:
   REPO_URL: https://github.com/openwrt/openwrt.git
   REPO_BRANCH: openwrt-21.02
-  FEEDS_CONF: NETGEAR-R6220/OpenWrt-v21.02/feeds.conf.default
+  FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: NETGEAR-R6220/OpenWrt-v21.02/.config
   DIY_P1_SH: NETGEAR-R6220/OpenWrt-v21.02/diy-part1.sh
   DIY_P2_SH: NETGEAR-R6220/OpenWrt-v21.02/diy-part2.sh
