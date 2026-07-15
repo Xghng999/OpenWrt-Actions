@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt-v21.02-ssr-R6220
+name: OpenWrt-v21.02-SS-R6220
 
 on:
   repository_dispatch:
