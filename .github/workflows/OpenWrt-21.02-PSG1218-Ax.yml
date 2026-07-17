@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: PSG1218 Ax
+name: OpenWrt-21.02-PSG1218-Ax
 
 on:
   repository_dispatch:
@@ -21,11 +21,11 @@ on:
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt
-  REPO_BRANCH: master
+  REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config
-  DIY_P1_SH: diy-part1.sh
-  DIY_P2_SH: diy-part2.sh
+  CONFIG_FILE: PSG1218-Ax/OpenWrt-v21.02/.config
+  DIY_P1_SH: PSG1218-Ax/OpenWrt-v21.02/diy-part1.sh
+  DIY_P2_SH: PSG1218-Ax/OpenWrt-v21.02/diy-part2.sh
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
