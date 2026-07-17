@@ -19,7 +19,8 @@ on:
 env:
   REPO_URL: https://github.com/openwrt/openwrt.git
   REPO_BRANCH: openwrt-21.02
-  FEEDS_CONF: xiaomi-mini/OpenWrt-v21.02/feeds.conf.default
+  FEEDS_CONF: https://github.com/immortalwrt/immortalwrt/blob/openwrt-21.02/feeds.conf.default
+  # FEEDS_CONF: xiaomi-mini/OpenWrt-v21.02/feeds.conf.default
   CONFIG_FILE: xiaomi-mini/OpenWrt-v21.02/.config
   DIY_P1_SH: xiaomi-mini/OpenWrt-v21.02/diy-part1.sh
   DIY_P2_SH: xiaomi-mini/OpenWrt-v21.02/diy-part2.sh
