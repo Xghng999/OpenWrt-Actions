@@ -15,3 +15,6 @@
 
 # 修改主机名
 sed -i "s/hostname='OpenWrt'/hostname='Xiaomi_Mini'/g" package/base-files/files/bin/config_generate
+
+# 更改时区
+sed -i "s/'UTC'/'CST-8'\n        set system.@system[-1].zonename='Asia\/Shanghai'/g" ../package/base-files/files/bin/config_generate
