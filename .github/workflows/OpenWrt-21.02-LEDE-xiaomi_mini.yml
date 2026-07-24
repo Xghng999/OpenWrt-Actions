@@ -18,7 +18,7 @@ on:
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede.git
-  REPO_BRANCH: 20200915
+  REPO_BRANCH: 20211107
   FEEDS_CONF: feeds.conf.default
   # FEEDS_CONF: xiaomi-mini/OpenWrt-v21.02/lede-feeds.conf.default
   CONFIG_FILE: xiaomi-mini/OpenWrt-v21.02/.config
