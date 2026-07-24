@@ -17,8 +17,8 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/openwrt/openwrt.git
-  REPO_BRANCH: openwrt-21.02
+  REPO_URL: https://github.com/coolsnowwolf/lede.git
+  REPO_BRANCH: 20200915
   FEEDS_CONF: feeds.conf.default
   # FEEDS_CONF: xiaomi-mini/OpenWrt-v21.02/lede-feeds.conf.default
   CONFIG_FILE: xiaomi-mini/OpenWrt-v21.02/.config
