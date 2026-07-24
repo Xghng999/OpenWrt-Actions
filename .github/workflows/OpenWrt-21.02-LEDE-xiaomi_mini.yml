@@ -21,7 +21,7 @@ env:
   REPO_BRANCH: 20200915
   FEEDS_CONF: feeds.conf.default
   # FEEDS_CONF: xiaomi-mini/OpenWrt-v21.02/lede-feeds.conf.default
-  CONFIG_FILE: xiaomi-mini/OpenWrt-v21.02/.config
+  CONFIG_FILE: xiaomi-mini/lede.config
   DIY_P1_SH: xiaomi-mini/OpenWrt-v21.02/diy-part1.sh
   DIY_P2_SH: xiaomi-mini/OpenWrt-v21.02/diy-part2.sh
   UPLOAD_BIN_DIR: false
